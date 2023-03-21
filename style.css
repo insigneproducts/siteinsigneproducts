@@ -1,0 +1,598 @@
+@media(max-width: 1680px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20vh 400vh 100vh;
+    grid-template-areas: "header header"
+	                     "article article"
+                         "footer footer";
+  }
+
+  body{
+    font-family: candara;
+  }
+
+  header{
+    grid-area: header;
+    background-color: #c9e265 ;
+  }
+
+  #sologo{
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
+
+  #logo{
+    width: 10vw;
+    margin-top: -15vh;
+    position: relative;
+  }
+
+  article{
+    grid-area: article;
+    background-color: #000;
+  }
+
+  #fotop{
+    margin-left: 2vw;
+    margin-top: 5vh;
+    height: 120vh;
+    width: 50vw;
+    border-radius: 20px;
+  }
+
+  #frasep{
+    margin-top: -110vh;
+    margin-left: 55vw;
+    margin-right: 5vw;
+    font-weight: bold;
+    font-size: 15vh;
+    color: #c9e265;
+  }
+
+  #kit3{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 35vh;
+    border-radius: 20px;
+  }
+
+  #txtkit3{
+    color: white;
+    margin-left: 35vw;
+    margin-top: -35vh;
+    font-size: 5vh;
+  }
+
+  #preco{
+    color: #c9e265;
+    margin-left: 35vw;
+    margin-top: 5vh;
+    font-size: 3vh;
+  }
+
+  #compre{
+    color: #c9e265;
+    margin-left: 35vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #divkit3{
+    margin-top: 0vh;
+  }
+
+  #divkit5{
+    margin-top: 10vh;
+  }
+
+  #divkittommy{
+  }
+
+  #kit5{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #txtkit5{
+    color: white;
+    margin-left: 35vw;
+    margin-top: -22vh;
+    font-size: 5vh;
+  }
+
+  #preco2{
+    color: #c9e265;
+    margin-left: 35vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre2{
+    color: #c9e265;
+    margin-left: 35vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #kittommy{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #shox{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #txtshox{
+    color: white;
+    margin-left: 35vw;
+    margin-top: -40vh;
+    font-size: 5vh;
+  }
+
+  #preco4{
+    color: #c9e265;
+    margin-left: 35vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre4{
+    color: #c9e265;
+    margin-left: 35vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  footer{
+    grid-area: footer;
+    background-color: #c9e265;
+  }
+
+  #contatos{
+    margin-left: 3vw;
+    margin-top: 20vh;
+    font-size: 8vh;
+  }
+
+  #instalogo{
+    margin-left: 60vw;
+    margin-top: 5vh;
+  }
+
+  #txtinsta{
+    margin-left: 64vw;
+    margin-top: -6vh;
+    text-decoration: none;
+    color: black;
+  }
+
+  #email{
+    margin-left: 60vw;
+    margin-top: -22vh;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #logope{
+    margin-top: 25vh;
+  }
+}
+
+@media(max-width: 768px){
+  .container{
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20vh 400vh 75vh;
+    grid-template-areas: "header header"
+	                     "article article"
+                        "footer footer";
+  }
+
+  *{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: candara;
+  }
+
+  header{
+    grid-area: header;
+    background-color: #c9e265 ;
+  }
+
+  article{
+    grid-area: article;
+    background-color: #000;
+  }
+
+  footer{
+    background-color: #c9e265;
+  }
+
+  #sologo{
+    height: 0vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
+
+  #logo{
+    width: 25vw;
+    margin-top: -7vh;
+    margin-left: -60vw;
+    position: relative;
+  }
+
+  #fotop{
+    margin-left: 3vw;
+    margin-top: 5vh;
+    height: 60vh;
+    width: 50vw;
+    border-radius: 20px;
+  }
+
+  #frasep{
+    margin-top: -58vh;
+    margin-left: 57vw;
+    margin-right: 5vw;
+    font-weight: bold;
+    font-size: 7vh;
+    color: #c9e265;
+  }
+
+  #kit3{
+    width: 50vw;
+    margin-left: 2vw;
+    margin-top: 35vh;
+    border-radius: 20px;
+  }
+
+  #txtkit3{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 5vw;
+    font-size: 5vh;
+  }
+
+  #preco{
+    color: #c9e265;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre{
+    color: #c9e265;
+    margin-left: 5vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #divkit3{
+    margin-top: 0vh;
+  }
+
+  #divkit5{
+    margin-top: 10vh;
+  }
+
+  #divkittommy{
+  }
+
+  #kit5{
+    width: 60vw;
+    margin-left: 2vw;
+    margin-top: 20vh;
+    border-radius: 20px;
+  }
+
+  #txtkit5{
+    color: white;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-size: 5vh;
+  }
+
+  #preco2{
+    color: #c9e265;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre2{
+    color: #c9e265;
+    margin-left: 5vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #kittommy{
+    width: 60vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #shox{
+    width: 40vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #txtshox{
+    color: white;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-size: 5vh;
+  }
+
+  #preco4{
+    color: #c9e265;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre4{
+    color: #c9e265;
+    margin-left: 5vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #contatos{
+    margin-left: 3vw;
+    margin-top: 20vh;
+    font-size: 3vh;
+  }
+
+  #instalogo{
+    width: 6vw;
+    margin-left: 60vw;
+    margin-top: 5vh;
+  }
+
+  #txtinsta{
+    margin-left: 67vw;
+    margin-top: -6.8vh;
+    text-decoration: none;
+    color: black;
+  }
+
+  #email{
+    margin-left: 43vw;
+    margin-top: -22vh;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #logope{
+    margin-top: 25vh;
+    width: 45vw;
+  }
+}
+@media(max-width: 1680px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20vh 500vh 100vh;
+    grid-template-areas: "header header"
+	                     "article article"
+                         "footer footer";
+  }
+
+  body{
+    font-family: candara;
+  }
+
+  header{
+    grid-area: header;
+    background-color: #c9e265 ;
+  }
+
+  #sologo{
+    height: 10vh;
+    margin-top: 5vh;
+    margin-left: 3vw;
+  }
+
+  #logo{
+    width: 10vw;
+    margin-top: -15vh;
+    position: relative;
+  }
+
+  article{
+    grid-area: article;
+    background-color: #000;
+  }
+
+  #fotop{
+    margin-left: 2vw;
+    margin-top: 5vh;
+    height: 120vh;
+    width: 50vw;
+    border-radius: 20px;
+  }
+
+  #frasep{
+    margin-top: -110vh;
+    margin-left: 55vw;
+    margin-right: 5vw;
+    font-weight: bold;
+    font-size: 15vh;
+    color: #c9e265;
+  }
+
+  #kit3{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 35vh;
+    border-radius: 20px;
+  }
+
+  #txtkit3{
+    color: white;
+    margin-left: 3vw;
+    margin-top: -0vh;
+    font-size: 5vh;
+  }
+
+  #preco{
+    color: #c9e265;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    font-size: 3vh;
+  }
+
+  #compre{
+    color: #c9e265;
+    margin-left: 3vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #divkit3{
+    margin-top: 0vh;
+  }
+
+  #divkit5{
+    margin-top: 10vh;
+  }
+
+  #divkittommy{
+  }
+
+  #kit5{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #txtkit5{
+    color: white;
+    margin-left: 3vw;
+    margin-top: -0vh;
+    font-size: 5vh;
+  }
+
+  #preco2{
+    color: #c9e265;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre2{
+    color: #c9e265;
+    margin-left: 3vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  #kittommy{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #shox{
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 25vh;
+    border-radius: 20px;
+  }
+
+  #txtshox{
+    color: white;
+    margin-left: 3vw;
+    margin-top: -0vh;
+    font-size: 5vh;
+  }
+
+  #preco4{
+    color: #c9e265;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    font-size: 3vh;
+  }
+
+  #compre4{
+    color: #c9e265;
+    margin-left: 3vw;
+    margin-top: 0vh;
+    font-size: 3vh;
+  }
+
+  footer{
+    grid-area: footer;
+    background-color: #c9e265;
+  }
+
+  #contatos{
+    margin-left: 3vw;
+    margin-top: 20vh;
+    font-size: 8vh;
+  }
+
+  #instalogo{
+    margin-left: 60vw;
+    margin-top: 5vh;
+  }
+
+  #txtinsta{
+    margin-left: 64vw;
+    margin-top: -6vh;
+    text-decoration: none;
+    color: black;
+  }
+
+  #email{
+    margin-left: 60vw;
+    margin-top: -22vh;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  #logope{
+    margin-top: 25vh;
+  }
+}
+	
