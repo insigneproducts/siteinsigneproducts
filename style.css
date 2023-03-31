@@ -1,4 +1,5 @@
-@media(max-width: 1920px){
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@media(min-width: 1920px){
   *{
     margin: 0;
     padding: 0;
@@ -11,14 +12,14 @@
     flex-direction: column;
     justify-content: space-around;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 20vh 400vh 100vh;
+    grid-template-rows: 20vh 500vh 100vh;
     grid-template-areas: "header header"
 	                     "article article"
                          "footer footer";
   }
 
   body{
-    font-family: candara;
+    font-family: 'Montserrat', sans-serif;
   }
 
   header{
@@ -34,7 +35,7 @@
 
   #logo{
     width: 10vw;
-    margin-top: -15vh;
+    margin-top: -18vh;
     position: relative;
   }
 
@@ -63,27 +64,27 @@
   #kit3{
     width: 30vw;
     margin-left: 2vw;
-    margin-top: 35vh;
+    margin-top: 50vh;
     border-radius: 20px;
   }
 
   #txtkit3{
     color: white;
-    margin-left: 35vw;
-    margin-top: -35vh;
+    margin-left: 3vw;
+    margin-top: 0vh;
     font-size: 5vh;
   }
 
   #preco{
     color: #c9e265;
-    margin-left: 35vw;
+    margin-left: 3vw;
     margin-top: 5vh;
     font-size: 3vh;
   }
 
   #compre{
     color: #c9e265;
-    margin-left: 35vw;
+    margin-left: 3vw;
     margin-top: 0vh;
     font-size: 3vh;
   }
@@ -108,21 +109,21 @@
 
   #txtkit5{
     color: white;
-    margin-left: 35vw;
-    margin-top: -22vh;
+    margin-left: 3vw;
+    margin-top: 0vh;
     font-size: 5vh;
   }
 
   #preco2{
     color: #c9e265;
-    margin-left: 35vw;
-    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-top: 0vh;
     font-size: 3vh;
   }
 
   #compre2{
     color: #c9e265;
-    margin-left: 35vw;
+    margin-left: 3vw;
     margin-top: 0vh;
     font-size: 3vh;
   }
@@ -143,21 +144,21 @@
 
   #txtshox{
     color: white;
-    margin-left: 35vw;
-    margin-top: -40vh;
+    margin-left: 3vw;
+    margin-top: 0vh;
     font-size: 5vh;
   }
 
   #preco4{
     color: #c9e265;
-    margin-left: 35vw;
-    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-top: 0vh;
     font-size: 3vh;
   }
 
   #compre4{
     color: #c9e265;
-    margin-left: 35vw;
+    margin-left: 3vw;
     margin-top: 0vh;
     font-size: 3vh;
   }
@@ -197,18 +198,16 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
 @media(max-width: 768px){
-  .container{
-    display: grid;
-    width: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 20vh 400vh 75vh;
-    grid-template-areas: "header header"
-	                     "article article"
-                        "footer footer";
-  }
 
   *{
     margin: 0vw;
@@ -216,13 +215,25 @@
     box-sizing: border-box;
   }
 
+  .container{
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 340vh 55vh;
+    grid-template-areas: "header header"
+	                     "article article"
+                        "footer footer";
+  }
+
   body{
-    font-family: candara;
+    font-family: 'Montserrat', sans-serif;
   }
 
   header{
     grid-area: header;
-    background-color: #c9e265 ;
+    background-color: #c9e265;
   }
 
   article{
@@ -242,32 +253,33 @@
 
   #logo{
     width: 25vw;
-    margin-top: -7vh;
-    margin-left: -60vw;
+    margin-top: -5vh;
+    margin-left: 0vw;
     position: relative;
   }
 
   #fotop{
     margin-left: 3vw;
     margin-top: 5vh;
-    height: 60vh;
-    width: 50vw;
-    border-radius: 20px;
+    height: 0vh;
+    width: 0vw;
+    border-radius: 30px;
   }
 
   #frasep{
-    margin-top: -58vh;
-    margin-left: 57vw;
+    text-align: center;
+    margin-top: 0vh;
+    margin-left: 5vw;
     margin-right: 5vw;
     font-weight: bold;
-    font-size: 7vh;
+    font-size: 6vh;
     color: #c9e265;
   }
 
   #kit3{
     width: 50vw;
     margin-left: 2vw;
-    margin-top: 35vh;
+    margin-top: 15vh;
     border-radius: 20px;
   }
 
@@ -367,20 +379,20 @@
   }
 
   #contatos{
-    margin-left: 3vw;
-    margin-top: 20vh;
+    margin-left: 27vw;
+    margin-top: 5vh;
     font-size: 3vh;
   }
 
   #instalogo{
     width: 6vw;
-    margin-left: 60vw;
-    margin-top: 5vh;
+    margin-left: 45vw;
+    margin-top: 8vh;
   }
 
   #txtinsta{
-    margin-left: 67vw;
-    margin-top: -6.8vh;
+    margin-left: 35vw;
+    margin-top: 2vh;
     text-decoration: none;
     color: black;
   }
@@ -390,6 +402,7 @@
     margin-top: -22vh;
     font-weight: bold;
     font-style: italic;
+    font-size: 0;
   }
 
   #logope{
@@ -397,7 +410,17 @@
     width: 45vw;
   }
 }
-@media(max-width: 1680px){
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 769px){
   *{
     margin: 0;
     padding: 0;
@@ -417,7 +440,7 @@
   }
 
   body{
-    font-family: candara;
+    font-family: 'Montserrat', sans-serif;
   }
 
   header{
@@ -455,7 +478,7 @@
     margin-left: 55vw;
     margin-right: 5vw;
     font-weight: bold;
-    font-size: 15vh;
+    font-size: 14vh;
     color: #c9e265;
   }
 
